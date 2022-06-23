@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transacts",
+  "info": {
+    "singularName": "transact",
+    "pluralName": "transacts",
+    "displayName": "Transact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sender": {
+      "type": "string",
+      "required": true
+    },
+    "receiver": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "float"
+    }
+  }
+}
